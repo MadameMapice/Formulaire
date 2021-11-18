@@ -14,8 +14,8 @@ let annule = document.getElementById("annule")
 
 valide.addEventListener("click",(event) =>{
 // console.log('test');
-    let res1 = monNom.value.search(/^[a-zA-Z ]{1,20}$/) 
-    let res2 = monPrenom.value.search(/^[a-zA-Z ]{1,20}$/)
+    let res1 = monNom.value.search(/^[a-zA-Z \-]{1,20}$/) 
+    let res2 = monPrenom.value.search(/^[a-zA-Z \-]{1,20}$/)
     let res3 = monAdresse.value.search(/^[a-zA-Z0-9 ]{1,40}$/)
     let res4 = monCP.value.search(/^[0-9]{5}$/)
     let res5 = monVille.value.search(/^[a-zA-Z]{1,10}$/)
