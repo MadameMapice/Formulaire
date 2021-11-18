@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    
+    
+}
+
+.form_nom{
+
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 30%;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+.flex_colum{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.flex_colum>div{
+    margin: 10px;
+    
+}
+
+#nom, #prenom, #adresse{
+    width: 80%;
+    font-size: 20px;
+}
+
+#CP,#ville {
+    width: 22%;
+    font-size: 20px;
+}
+
+.flex_row, .mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.mail{
+    margin-top: 20px; 
+}
+
+.mail>input{
+   width: 80%;
+   font-size: 20px;
+
+}
+
+.btn{
+    margin-top: 10px;
+
+}
+
+.btn>input{
+
+    padding: 10px 50px;
+    font-size: 20px;
+    background-color: rgb(240, 190, 211);
+
+}
+

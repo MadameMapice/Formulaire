@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Formulaire</title>
+</head>
+
+<body>
+
+    <form class="form_nom">
+        <div class="flex_colum">
+            <div class="flex_row"><label for="nom">Nom : </label><input type="text" id="nom"></div>
+            <!-- <div class="flex_row"><div id="message1"></div></div> Pour mettre un message on dessus de l'input-->
+            <div class="flex_row"><label for="prenom">Prenom : </label><input type="text" id="prenom"></div>
+            <div class="flex_row"><label for="adresse">Adresse : </label><input type="text" id="adresse"></div>
+        </div>
+
+        <div class="flex_row">
+            <label for="CP">CP : </label><input type="text" id="CP">
+            <label for="ville">Ville : </label><input type="text" id="ville">
+        </div>
+
+        
+        <div class="mail">
+            <label for="email">Email : </label><input type="text" id="email">
+        </div>
+    
+        
+        <div class="flex_row">
+            <div class="btn"><input type="button" id="valid" value="Valide"></div>
+            <div class="btn"><input type="reset" id="annule" value="Annule"></div>
+        </div>
+    </form>
+
+</body>
+</html>
